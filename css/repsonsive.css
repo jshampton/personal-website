@@ -1,0 +1,128 @@
+/* --------- TABELT STYLING ------------------------------- */
+
+@media screen and (min-width:700px) {
+    
+    /* ----- HOME PAGE STYLING ---------------------------- */
+
+    #homepage-intro {
+        max-height: calc(100vh - 110px);
+    }
+    
+    #logo {
+        padding-top: 21%;
+    }
+    
+    /* ---------- MAIN CONTENT STYLING -------------------- */
+    
+    .main-content {
+        padding-top: 110px;
+        min-height: calc(100vh - 350px);
+    }
+
+    /* ----- ABOUT PAGE STYLING --------------------------- */
+    
+    #profile-pic {
+        float: right;
+    }
+    
+    .about-me-para {
+        text-align: left;
+        width: 70%;
+        float: left;
+    }
+    
+    /* ----- PORTFOLIO PAGE STYLING ----------------------- */
+
+    
+    /* ----- WIREFRAME STYLING ---------------------------- */
+
+    .wireframe-project {
+        width: 40%;
+        margin: 5px;
+    }
+    
+    /* ---------- SLIDE PLUGIN STYLING -------------------- */
+
+    .slide {
+        margin: 10px 10px;
+        height: 300px;
+    }
+    
+    .slide-btn p {
+        margin-left: 38%; 
+    }
+}
+
+/* --------- DESKTOP STYLING ------------------------------ */
+
+@media screen and (min-width:973px) {
+    
+    /* ----- PAGE HEADER STYLING -------------------------- */
+    
+    #logo {
+        padding-top: 17%;
+    }
+    
+    /* ----- PAGE HEADER STYLING -------------------------- */
+
+    #page-header {
+        height: 70px;
+    }
+    
+    #page-header h1 {
+        float: left;
+        display: inline-block;
+        padding-left: 50px;
+
+    }
+    
+    #page-header h2 {
+        float: left;
+        display: inline-block;
+        padding: 18px 0 0 20px;
+    }
+    
+    #page-nav {
+        float: right;
+        padding-right: 50px;
+    }
+    
+    #page-nav a:hover {
+        color: #f3af54;
+        font-weight: 300;
+    }
+    
+    /* ---------- MAIN CONTENT STYLING -------------------- */
+    
+    .main-content {
+        padding-top: 130px;
+        min-height: calc(100vh - 330px);
+    }
+    
+    /* ----- ABOUT PAGE STYLING -------------------------- */
+    
+    #about-me {
+        padding-top: 120px;   
+    }   
+    
+    .about-me-para {
+        padding: 5px 15px;
+    }
+    
+    /* ----- PORTFOLIO PAGE STYLING ---------------------- */
+    
+    
+    /* ----- WIREFRAME STYLING ---------------------------- */
+
+    .wireframe-project {
+        width: 30%;
+        margin: 7px;
+    }
+    
+    /* ---------- SLIDE PLUGIN STYLING -------------------- */
+
+        .slide-btn p {
+        margin-left: 38.5%; 
+    }
+    
+}

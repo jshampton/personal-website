@@ -1,0 +1,236 @@
+/* ---------- GENERAL STYLING ---------------------------- */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    background-image: url(../images/welcome-background.png);
+    background-position: -150px -250px;
+    background-repeat: no-repeat;
+}
+
+#homeage-body {
+    background: none;
+}
+
+p {
+    font-weight: 400;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 0;
+    padding:0;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	padding: 3px;
+	margin: 3px;
+}
+ul li img {
+	display: block;
+    width: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    padding: 0 2px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+a:hover {
+    color: #f3af54;
+    font-weight: 300;
+}
+
+img {
+    padding-bottom: 5px;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    min-height: calc(100vh + 100px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+#overlay img {
+    margin-top: 30%;
+    max-width: 350px;
+    max-height: calc(100vh - 30px);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------- HEADER STYLING ----------------------------- */
+
+header {
+    margin-top: 30px;
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Amatic SC', cursive;
+}
+
+header h1 {
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 3.125em;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 1.875em;
+}
+
+header li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+#homepage-intro {
+    background-image: url(../images/welcome-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: calc(100vh - 140px);
+}
+
+#logo {
+    padding-top: 220px;
+}
+
+/* ---------- PAGE HEADER -------------------------------- */
+
+#page-header {
+    margin: 0;
+    padding-top: 20px;
+    height: 140px;
+}
+
+
+#title-link:hover {
+    color: #000;
+}
+
+/* ---------- NAV STYLING -------------------------------- */
+
+nav {
+    margin: 0 auto;
+    padding: 10px 0 37px;
+}
+
+nav li {
+    font-size: .9em;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#homepage-nav a:hover {
+    color: #fff;
+    font-weight: 300;
+}
+
+#page-nav ul {
+    padding-top: 15px;
+}
+
+/* ---------- MAIN CONTENT STYLING ----------------------- */
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0 0;
+    min-height: calc(100vh - 370px);
+}
+
+/* ---------- ABOUT ME STYLING --------------------------- */
+
+.about-me-para {
+    margin: 0 auto;
+    padding: 5px 15px 0;
+}
+
+#profile-pic {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#profile-pic img {
+    max-width: 170px;
+}
+
+.text-emphasis {
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/* ---------- PORTFOLIO STYLING -------------------------- */
+
+.project-gallery img, .imageGallery img {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.imageGallery li {
+    display: inline-block;
+	padding: 2px;
+	margin: 2px;
+}
+
+/* ---------- FOOTER STYLING ----------------------------- */
+
+footer {
+    padding: 20px 0;
+    height: 70px;
+    background-image: url(../images/welcome-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 110px 0;
+    position: relative;
+    bottom: 0;
+}
+
+footer a:hover {
+    color: #f3af54;
+}
+
+#social-links {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}

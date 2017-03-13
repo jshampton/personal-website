@@ -1,0 +1,133 @@
+/* ---------- SLIDE PLUGIN STYLING ------------------------ */
+
+.slide {
+    height: 600px;
+    min-width: 300px;
+    color: #000;
+    border: 1px solid #000;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 275px;
+    border: none;
+}
+
+.slide p {
+    color: #000;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.slide h3 {
+    margin: 40px 0 20px;
+    padding: 0;
+    font-weight: 700;
+    font-family: 'Amatic SC';
+    font-size: 2em;
+}
+
+.slide-btn {
+    margin: 10px 0 0;
+}
+
+.slide-btn p {
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 160px;
+    height: 30px;
+    margin-left: 30%; 
+    padding: 5px 0 0;
+    font-size: 0.875em;
+    text-align: center;
+}
+
+.slide-btn p:hover {
+    color: #f3af54;
+    border: 1px solid #f3af54;
+}
+
+#slide-one {
+    background-image: url(../images/thumbnails/wed-design-banner-clear.png);
+}
+
+#slide-two {
+    background-image: url(#);
+}
+
+#slide-three {
+    background-image: url(../images/thumbnails/digital-illustrations-banner.png);
+}
+
+#slide-four {
+    background-image: url(../images/thumbnails/typography-banner-clear.png);
+}
+
+#slide-five {
+    background-image: url(#);
+}
+
+
+.slick-dots li button:before {
+    color: #f3af54;
+}
+
+/* -------------- Responsive Tablet styling --------------- */
+
+@media screen and (min-width:700px) {
+    
+    .slide {
+        text-align: left;
+        background-position: 300px 0px;
+    }
+
+    .slide p {
+        padding: 0 10% 0;
+        margin: 0;
+    }
+
+    .slide h3 {
+        padding-left: 10%;
+    }
+
+    .slide-btn {
+        width: 200px;
+    }
+    
+    .slide-btn p {
+        padding: 5px 0 0;
+    }
+    
+}
+
+/* -------------- Responsive Desktop styling -------------- */
+
+@media screen and (min-width:973px) {
+    
+    .slide {
+        margin: 0 auto;
+        text-align: left;
+        background-position: 350px 0px;
+    }
+
+    .slide p {
+        padding: 0 12% 0;
+        margin: 0;
+    }
+
+    .slide h3 {
+        padding-left: 12%;
+    }
+
+    .slide-btn {
+        width: 240px;
+    }
+    
+    .slide-btn p {
+        padding: 5px 0 0;
+    }
+    
+}
